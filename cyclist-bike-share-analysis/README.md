@@ -33,6 +33,7 @@ For this project, we will primarily be using the following in order to do our ED
 ## Results
 
 ### Baseline
+![Pie](images/pie.png)
 Our analysis focuses on the data collected from April 2020 through August 2021.
 From the initial analysis of this data, we found a few key features that help us form a baseline of the user groups:
 - As expected, the number of casual riders is over 1.75 times the number of members.
@@ -40,6 +41,8 @@ From the initial analysis of this data, we found a few key features that help us
 - However, Cyclist members take more number of trips overall than casual riders do - 1.4 times the amount, to be precise.
 
 ### Monthly Data
+![](images/mem.png)
+![](images/cas.png)
 As we delve deeper into the monthly data, we see some trends common to both users. The figures above show how the demand for Cyclist bikes are seasonal. The demand for bikes starts increasing in April and reaches its peak in August (this is seen in 2020 as well as 2021). Following this peak, there is a steady decline in the coming months with the winter seasons (November - February) seeing a huge drop in sales.
 
 This is an expected trend since people are not likely to use bikes in peak winters. Here, we notice that Cyclist sales have been worse from April - June 2020 when compared to 2021 results and while these could be a result of improved marketing and brand recognition, the pandemic in 2020 (COVID-19) could have played a role. We would need to examine more data from the subsequent years to gain a better understanding of the reason.
@@ -47,6 +50,23 @@ This is an expected trend since people are not likely to use bikes in peak winte
 As we compare the two figures above, we see that customers generally use Cyclist during the afternoon and in the evening with moderate use in the mornings. There is a huge decline in demand at night. While these are generally common, casual riders tend to use Cyclist at night more often than members do.
 
 ### Daily Data
+![](images/April.png)
+![](images/May.png)
+![](images/June.png)
+![](images/July.png)
+![](images/Aug.png)
+![](images/Sep.png)
+![](images/Oct.png)
+![](images/Nov.png)
+![](images/Dec.png)
+![](images/Jan.png)
+![](images/Feb.png)
+![](images/March.png)
+![](images/April21.png)
+![](images/May21.png)
+![](images/June21.png)
+![](images/July21.png)
+![](images/Aug21.png)
 We also compare the data on a daily base for each month. For the first four months in question, docked bikes were the only ones in use.
 
 These figures corroborate our findings earlier showing that the total number of trips is higher for members while the total duration is higher for casuals. This also backs our findings in the second section showing the majority of the use is from 12pm - 6pm.
