@@ -1,8 +1,5 @@
 <h1 align="center"> Cyclist Bike-Share Analysis </h1>
 
-![april](april.pdf)
-
-
 This is the capstone project from the [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
 You can refer to or download the data [here](https://divvy-tripdata.s3.amazonaws.com/index.html).
 
