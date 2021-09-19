@@ -29,7 +29,7 @@ For this project, we will primarily be using the following in order to do our ED
 
 ## Results
 
-### Baseline
+### Features
 ![Pie](images/pie.png)
 Our analysis focuses on the data collected from April 2020 through August 2021.
 From the initial analysis of this data, we found a few key features that help us form a baseline of the user groups:
@@ -72,6 +72,22 @@ These two trends are clearly seen in every month with varying degrees. The gap b
 
 The company introduced electric bikes in September 2020. We see that the demand for these is initially low and most use comes out of the docked bikes for two months until November when their use starts levelling out. 
 In December, Cyclist brough classic bikes and they completely replaced the docked bikes altogether. In the coming months, the demand for classic bike stayed at nearly 1.8 times that of electric bikes for members. For casual riders, however, the demand for both kinds levelled off and fluctuated occassionally.
+
+
+### Caveats Observed
+
+Over the course of our analysis, we saw certain traits in the NaN values present in the data. In the data from April 2020 to August 2021, we had over 7.14 million total rides by cyclist users. Of these, 9.8% of the records had NaN values for either the start station or the end station names. 
+
+On taking a closer look at these Nan values, we find 97% of them are from the rideable type -- 'electric bikes'. There are two possible conclusions from this: 
+- If all stations have a similar distribution of bike types, there is a gap in recording the station names for electric bikes.
+- Or, most of the electric bikes are concentrated in stations different from the docked and classic bikes. 
+
+The second scenario is also supported by the fact that the electric bikes have a lower usage as shown in earlier sections, possibly because they are located in sparsely populated stations. Either way, this is an issue Cyclist needs to address. 
+Furthermore, there is no difference in split between casual and member riders for these NaN values. 
+
+
+
+
 
 
 ## Conclusion
