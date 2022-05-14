@@ -1,11 +1,13 @@
 library(dplyr)
 library(xgboost)
 library(lme4)
+library(nlme)
 
-regresults <- read.csv("../input/mens-march-mania-2022/MDataFiles_Stage2/MRegularSeasonDetailedResults.csv")
-results <- read.csv("../input/mens-march-mania-2022/MDataFiles_Stage2/MNCAATourneyDetailedResults.csv")
-sub <- read.csv("../input/mens-march-mania-2022/MDataFiles_Stage2/MSampleSubmissionStage2.csv")
-seeds <- read.csv("../input/mens-march-mania-2022/MDataFiles_Stage2/MNCAATourneySeeds.csv")
+setwd("/Users/harsh/Desktop/Projects/kaggle/March ML Mania 2022 ")
+regresults <- read.csv("./data/MDataFiles_Stage2/MRegularSeasonDetailedResults.csv")
+results <- read.csv("./data/MDataFiles_Stage2/MNCAATourneyDetailedResults.csv")
+sub <- read.csv("./data/MDataFiles_Stage2/MSampleSubmissionStage2.csv")
+seeds <- read.csv("./data/MDataFiles_Stage2/MNCAATourneySeeds.csv")
 
 seeds$Seed = as.numeric(substring(seeds$Seed,2,4))
 
